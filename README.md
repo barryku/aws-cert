@@ -27,7 +27,7 @@ cp config.txt config.json
 
 You can then run the sample scripts as followed,
 ```
-cd dynamo
+cd dynamodb
 node create-db.js
 node upload-data.js
 ```
