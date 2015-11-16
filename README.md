@@ -1,10 +1,10 @@
-AWS SDK examples for AWS certification
+# AWS SDK examples for AWS certification
 
-set up NodeJS by adding EPEL repository via curl, then yum install. Type the following commands in terminal,
-
+Set up NodeJS by adding EPEL repository via curl, then yum install. Type the following commands in terminal,
+```
 curl --silent --location https://rpm.nodesource.com/setup | bash -
 yum install nodejs npm git -y
-
+```
 
 Once nodejs is set up, clone the project
 
