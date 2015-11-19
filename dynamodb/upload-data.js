@@ -1,8 +1,9 @@
-var aws = require('aws-sdk');
+var AWS = require('aws-sdk');
+var config = require('../config')
 
-aws.config.loadFromPath('../config.json');
+AWS.config.loadFromPath('../config.json');
 
-var db = new aws.DynamoDB();
+var db = new AWS.DynamoDB();
 
 var params = {
   RequestItems: {

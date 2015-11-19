@@ -1,0 +1,6 @@
+var cfg = {};
+
+cfg.s3Bucket = 'yourS3BucketName';
+cfg.sqsUrl = 'https://sqs.us-east-1.amazonaws.com/yourSQS';
+
+module.exports = cfg;
